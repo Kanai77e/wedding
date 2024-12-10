@@ -1,6 +1,3 @@
-.main-wrapper {
-  display: flex;
-  flex-direction: column;
-  background-color: #49a107;
-  height: 100%;
+.old-paper {
+  background-image: url('/assets/img/old-paper.jpg');
 }
