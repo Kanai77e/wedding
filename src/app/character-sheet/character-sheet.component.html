@@ -20,29 +20,35 @@
   </div>
 
   <!-- Attributes -->
-  <div class="grid grid-cols-3 gap-4 mb-8">
+  <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
     <div class="text-center bg-purple-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-purple-700">Strength</h3>
+      <h3 class="text-lg font-bold text-purple-700 hidden sm:block">Strength</h3>
+      <h3 class="text-lg font-bold text-purple-700 sm:hidden">STR</h3>
       <p class="text-2xl font-bold">{{ char.attributes.str }}</p>
     </div>
     <div class="text-center bg-purple-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-purple-700">Dexterity</h3>
+      <h3 class="text-lg font-bold text-purple-700 hidden sm:block">Dexterity</h3>
+      <h3 class="text-lg font-bold text-purple-700 sm:hidden">DEX</h3>
       <p class="text-2xl font-bold">{{ char.attributes.dex }}</p>
     </div>
     <div class="text-center bg-purple-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-purple-700">Charisma</h3>
+      <h3 class="text-lg font-bold text-purple-700 hidden sm:block">Charisma</h3>
+      <h3 class="text-lg font-bold text-purple-700 sm:hidden">CHA</h3>
       <p class="text-2xl font-bold">{{ char.attributes.cha }}</p>
     </div>
     <div class="text-center bg-purple-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-purple-700">Wisdom</h3>
+      <h3 class="text-lg font-bold text-purple-700 hidden sm:block">Wisdom</h3>
+      <h3 class="text-lg font-bold text-purple-700 sm:hidden">WIS</h3>
       <p class="text-2xl font-bold">{{ char.attributes.wis }}</p>
     </div>
     <div class="text-center bg-purple-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-purple-700">Intelligence</h3>
+      <h3 class="text-lg font-bold text-purple-700 hidden sm:block">Intelligence</h3>
+      <h3 class="text-lg font-bold text-purple-700 sm:hidden">INT</h3>
       <p class="text-2xl font-bold">{{ char.attributes.int }}</p>
     </div>
     <div class="text-center bg-purple-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-purple-700">Constitution</h3>
+      <h3 class="text-lg font-bold text-purple-700 hidden sm:block">Constitution</h3>
+      <h3 class="text-lg font-bold text-purple-700 sm:hidden">CON</h3>
       <p class="text-2xl font-bold">{{ char.attributes.con }}</p>
     </div>
   </div>
