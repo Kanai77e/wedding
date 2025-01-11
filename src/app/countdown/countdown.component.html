@@ -1,0 +1,25 @@
+<div class="text-center text-white p-4 bg-gradient-to-r from-pink-500 to-purple-500 rounded-lg">
+  <h2 class="text-2xl font-bold mb-4">Countdown to Our Wedding</h2>
+  @if (timeLeft) {
+    <div class="flex justify-center space-x-4">
+      <div class="flex flex-col items-center">
+        <span class="text-4xl font-bold">{{ timeLeft.days }}</span>
+        <span class="text-sm uppercase">Days</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-4xl font-bold">{{ timeLeft.hours }}</span>
+        <span class="text-sm uppercase">Hours</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-4xl font-bold">{{ timeLeft.minutes }}</span>
+        <span class="text-sm uppercase">Minutes</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-4xl font-bold">{{ timeLeft.seconds }}</span>
+        <span class="text-sm uppercase">Seconds</span>
+      </div>
+    </div>
+  } @else {
+    <p class="text-xl font-bold mt-4">We're Married!</p>
+  }
+</div>
