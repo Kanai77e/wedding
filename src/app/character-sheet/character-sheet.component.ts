@@ -1,4 +1,24 @@
-import {Component} from '@angular/core';
+import {Component, input} from '@angular/core';
+
+export interface Character {
+  name: string;
+  race: string;
+  class: string;
+  level: number;
+  attributes: Attributes;
+  backstory: string;
+  abilities: string[];
+  equipment: string[];
+}
+
+export interface Attributes {
+  str: number;
+  dex: number;
+  cha: number;
+  wis: number;
+  int: number;
+  con: number;
+}
 
 @Component({
   selector: 'app-character-sheet',
@@ -6,6 +26,7 @@ import {Component} from '@angular/core';
   templateUrl: './character-sheet.component.html',
   styleUrl: './character-sheet.component.css'
 })
-export class CharacterSheetComponent {
 
+export class CharacterSheetComponent {
+  character = input.required<Character>()
 }
