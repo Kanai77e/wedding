@@ -9,6 +9,7 @@ export interface Character {
   backstory: string;
   abilities: string[];
   equipment: string[];
+  imagePath: string;
 }
 
 export interface Attributes {
