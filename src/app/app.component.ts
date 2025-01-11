@@ -1,12 +1,14 @@
 import {Component} from '@angular/core';
 import {Character, CharacterSheetComponent} from './character-sheet/character-sheet.component';
 import {CountdownComponent} from './countdown/countdown.component';
+import {XDividerComponent} from './x-divider/x-divider.component';
 
 @Component({
   selector: 'app-root',
   imports: [
     CharacterSheetComponent,
-    CountdownComponent
+    CountdownComponent,
+    XDividerComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
