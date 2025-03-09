@@ -3,13 +3,15 @@ import {CharacterSheetComponent} from './character-sheet/character-sheet.compone
 import {CountdownComponent} from './countdown/countdown.component';
 import {XDividerComponent} from './x-divider/x-divider.component';
 import {julz, lucy} from './model/characters';
+import {MapsContainerComponent} from './maps-container/maps-container.component';
 
 @Component({
   selector: 'app-root',
   imports: [
     CharacterSheetComponent,
     CountdownComponent,
-    XDividerComponent
+    XDividerComponent,
+    MapsContainerComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
