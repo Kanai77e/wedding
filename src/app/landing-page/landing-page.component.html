@@ -13,8 +13,19 @@
 
   <app-x-divider class="w-full"/>
 
-  <div class="flex justify-center w-full">
-    <app-maps-container/>
+  <div class="w-full">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSdp2yLcit2S6Hr77xm0iAso4KnGkPVEp5wA10zz5HAOgq89MQ/viewform?embedded=true"
+      width="100%" height="1000px">Loading…
+    </iframe>
+  </div>
+
+  <app-x-divider class="w-full"/>
+
+  <div class="flex justify-center w-full gap-8 flex-col xl:flex-row">
+    <app-maps-container [mapUrl]="mapLinkSchwetzingen"/>
+    <app-maps-container
+      [mapUrl]="mapLinkSchlossRennhof"/>
   </div>
 
   <app-x-divider class="w-full"/>
@@ -24,14 +35,5 @@
             src="https://open.spotify.com/embed/playlist/1F0XSKMsiwHxNAAEeUeiMF?utm_source=generator&theme=0"
             width="100%" height="480px" allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </div>
-
-  <app-x-divider class="w-full"/>
-
-  <div class="w-full">
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSdp2yLcit2S6Hr77xm0iAso4KnGkPVEp5wA10zz5HAOgq89MQ/viewform?embedded=true"
-      width="100%" height="1000px">Loading…
-    </iframe>
   </div>
 </div>
