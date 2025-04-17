@@ -6,7 +6,7 @@
 
   <app-x-divider class="w-full"/>
 
-  <div class="flex flex-col lg:flex-row justify-around gap-8">
+  <div class="flex flex-col xl:flex-row justify-around gap-8">
     <app-character-sheet [character]="lucy"/>
     <app-character-sheet [character]="julz"/>
   </div>
@@ -23,9 +23,8 @@
   <app-x-divider class="w-full"/>
 
   <div class="flex justify-center w-full gap-8 flex-col xl:flex-row">
-    <app-maps-container [mapUrl]="mapLinkSchwetzingen"/>
-    <app-maps-container
-      [mapUrl]="mapLinkSchlossRennhof"/>
+    <app-maps-container headline="Freie Trauung" [mapUrl]="mapLinkSchwetzingen"/>
+    <app-maps-container headline="Feier" [mapUrl]="mapLinkSchlossRennhof"/>
   </div>
 
   <app-x-divider class="w-full"/>

@@ -8,6 +8,7 @@ import {DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
   styleUrl: './maps-container.component.css'
 })
 export class MapsContainerComponent {
+  headline = input<string>();
   mapUrl = input.required<string>()
   safeMapUrl = computed<SafeResourceUrl>(() => this._domSanitizer.bypassSecurityTrustResourceUrl(this.mapUrl()))
 
