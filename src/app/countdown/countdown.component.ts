@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
   styleUrl: './countdown.component.css'
 })
 export class CountdownComponent {
-  weddingDate: Date = new Date('2025-10-11T12:00:00'); // Replace with your wedding date
+  weddingDate: Date = new Date('2025-10-11T15:00:00'); // Replace with your wedding date
   timeLeft: any = {};
   private timer: any;
 
