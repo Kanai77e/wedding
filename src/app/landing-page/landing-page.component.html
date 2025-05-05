@@ -25,17 +25,17 @@
 
   <app-x-divider class="w-full"/>
 
+  <div class="flex justify-center w-full gap-8 flex-col xl:flex-row">
+    <app-maps-container headline="Freie Trauung" [mapUrl]="mapLinkSchwetzingen"/>
+    <app-maps-container headline="Feier" [mapUrl]="mapLinkSchlossRennhof"/>
+  </div>
+
+  <app-x-divider class="w-full"/>
+
   <div class="w-full overflow-hidden">
     <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLSdp2yLcit2S6Hr77xm0iAso4KnGkPVEp5wA10zz5HAOgq89MQ/viewform?embedded=true"
       width="100%" height="1200px" scrolling="no">Loading…
     </iframe>
-  </div>
-
-  <app-x-divider class="w-full"/>
-
-  <div class="flex justify-center w-full gap-8 flex-col xl:flex-row">
-    <app-maps-container headline="Freie Trauung" [mapUrl]="mapLinkSchwetzingen"/>
-    <app-maps-container headline="Feier" [mapUrl]="mapLinkSchlossRennhof"/>
   </div>
 </div>
