@@ -9,3 +9,8 @@ body {
 body, html {
   height: 100%;
 }
+
+@font-face {
+  font-family: 'italianno';
+  src: url('../public/fonts/Italianno-Regular.ttf');
+}
