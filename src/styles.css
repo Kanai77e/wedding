@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  text-rendering: geometricPrecision;
 }
 
 body, html {
@@ -13,4 +14,9 @@ body, html {
 @font-face {
   font-family: 'italianno';
   src: url('../public/fonts/Italianno-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'petitFormalScript';
+  src: url('../public/fonts/PetitFormalScript-Regular.ttf');
 }
