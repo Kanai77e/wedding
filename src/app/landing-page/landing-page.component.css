@@ -1,3 +1,9 @@
+@property --text-secondary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #84ca85;
+}
+
 .image-background {
   display: flex;
   flex-direction: column;
@@ -21,11 +27,16 @@
   font-family: 'italianno', cursive;
 }
 
+.font-petitFormalScript {
+  @apply text-xl md:text-2xl text-center;
+  color: var(--text-secondary);
+  font-family: 'petitFormalScript', cursive;
+}
+
 .intro-text {
   @apply flex flex-col gap-8 px-6 text-xl md:text-2xl text-center;
   line-height: 3rem;
-  color: #84ca85;
-  font-family: 'petitFormalScript', cursive;
+  color: var(--text-secondary);
   max-width: 1200px;
 
 }
