@@ -5,7 +5,7 @@ import {CountdownComponent} from "../countdown/countdown.component";
 import {MapsContainerComponent} from "../maps-container/maps-container.component";
 import {XDividerComponent} from "../x-divider/x-divider.component";
 import {jarallax} from 'jarallax';
-import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
+import {BreakpointObserver} from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-landing-page',
@@ -18,7 +18,7 @@ import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css'
 })
-export class LandingPageComponent implements AfterViewInit{
+export class LandingPageComponent implements AfterViewInit {
 
   protected readonly julz = julz;
   protected readonly lucy = lucy;
@@ -36,7 +36,7 @@ export class LandingPageComponent implements AfterViewInit{
     const isHandset = this.breakPointsObserver.isMatched('(max-width: 1200px)')
     jarallax(this.parallaxContainer()?.nativeElement, {
       speed: 0.2,
-      imgSrc: 'bg2.jpg', // Update path to your image
+      imgSrc: 'bg2small.jpg', // Update path to your image
       imgSize: isHandset ? 'cover' : 'contain',
       imgPosition: isHandset ? '40% 0%' : 'center 0%',
       imgRepeat: 'no-repeat'
