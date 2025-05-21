@@ -62,11 +62,11 @@ const alex: Companion = {
 
 export const lucy: Character = {
   name: 'Lucy',
-  race: 'Human',
-  class: 'ÄWÄWÄ',
-  level: 26,
+  race: 'Half-Elf',
+  class: 'Druid',
+  level: 27,
   attributes: {str: 10, dex: 10, cha: 10, wis: 10, int: 10, con: 10},
-  backstory: 'ÄWÄWÄ',
+  backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['adhs toys'],
   imagePath: 'characters/lucy.jpg',
@@ -74,12 +74,12 @@ export const lucy: Character = {
 }
 
 export const julz: Character = {
-  name: 'Lucy',
+  name: 'Julz',
   race: 'Human',
-  class: 'ÄWÄWÄ',
-  level: 26,
+  class: 'Paladin',
+  level: 32,
   attributes: {str: 10, dex: 10, cha: 10, wis: 10, int: 10, con: 10},
-  backstory: 'ÄWÄWÄ',
+  backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['adhs toys'],
   imagePath: 'characters/julz.jpg',
