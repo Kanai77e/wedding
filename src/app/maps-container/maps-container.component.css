@@ -13,6 +13,8 @@ iframe {
   height: 90%;
 }
 
-.font-italianno {
-  font-family: 'italianno', cursive;
+.headline {
+  @apply text-center text-4xl font-semibold mb-4;
+  color: var(--text-primary);
+  font-family: 'italianno', cursive;;
 }

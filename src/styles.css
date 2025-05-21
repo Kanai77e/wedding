@@ -24,11 +24,11 @@ body, html {
 @property --text-primary {
   syntax: "<color>";
   inherits: true;
-  initial-value: white;
+  initial-value: #ebe6c1;
 }
 
 @property --text-secondary {
   syntax: "<color>";
   inherits: true;
-  initial-value: #84ca85;
+  initial-value: #ebe6c1;
 }
