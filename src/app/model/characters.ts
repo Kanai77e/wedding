@@ -69,7 +69,7 @@ export const lucy: Character = {
   backstory: 'ÄWÄWÄ',
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['adhs toys'],
-  imagePath: 'default.jpg',
+  imagePath: 'characters/lucy.jpg',
   companions: [kathi, tobias]
 }
 
@@ -82,7 +82,7 @@ export const julz: Character = {
   backstory: 'ÄWÄWÄ',
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['adhs toys'],
-  imagePath: 'default.jpg',
+  imagePath: 'characters/julz.jpg',
   companions: [danok, alex]
 }
 
