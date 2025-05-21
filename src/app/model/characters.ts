@@ -28,6 +28,38 @@ export interface Companion {
   imagePath: string;
 }
 
+const kathi: Companion = {
+  name: 'Kathi',
+  race: 'Human',
+  class: '',
+  level: 26,
+  imagePath: 'default.jpg',
+}
+
+const tobias: Companion = {
+  name: 'Tobias',
+  race: 'Human',
+  class: '',
+  level: 26,
+  imagePath: 'default.jpg',
+}
+
+const danok: Companion = {
+  name: 'Danok',
+  race: 'Human',
+  class: '',
+  level: 26,
+  imagePath: 'default.jpg',
+}
+
+const alex: Companion = {
+  name: 'Alex',
+  race: 'Human',
+  class: '',
+  level: 26,
+  imagePath: 'default.jpg',
+}
+
 export const lucy: Character = {
   name: 'Lucy',
   race: 'Human',
@@ -38,7 +70,7 @@ export const lucy: Character = {
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['adhs toys'],
   imagePath: 'default.jpg',
-  companions: []
+  companions: [kathi, tobias]
 }
 
 export const julz: Character = {
@@ -51,5 +83,6 @@ export const julz: Character = {
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['adhs toys'],
   imagePath: 'default.jpg',
-  companions: []
+  companions: [danok, alex]
 }
+

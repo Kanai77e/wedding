@@ -75,12 +75,36 @@
   </div>
 
   <!-- Equipment -->
-  <div>
+  <div class="mb-8">
     <h3 class="text-xl font-bold text-green-900 mb-2">Equipment</h3>
     <ul class="list-disc list-inside text-gray-600">
       @for (equipment of char.equipment; track equipment) {
         <li>{{ equipment }}</li>
       }
     </ul>
+  </div>
+
+  <div>
+    <h3 class="text-xl font-bold text-green-900 mb-2">Companions</h3>
+
+    <div class="flex flex-col gap-4 md:flex-row">
+      @for (companion of char.companions; track companion.name) {
+        <div class="flex items-center space-x-6">
+          <img
+            [src]="companion.imagePath"
+            alt="Character Portrait"
+            class="w-20 h-20 rounded-full border-2 border-green-900 object-cover"
+          />
+          <div>
+            <h2 class="text-lg font-bold text-green-900">Name: {{ companion.name }}</h2>
+            <div class="flex flex-col">
+              <span>Race: {{ companion.race }}</span>
+              <span>Class: {{ companion.class }}</span>
+              <span>Level: {{ companion.level }}</span>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
   </div>
 </div>
