@@ -30,10 +30,10 @@ export interface Companion {
 
 const kathi: Companion = {
   name: 'Kathi',
-  race: 'Human',
-  class: '',
-  level: 26,
-  imagePath: 'default.jpg',
+  race: 'Elf',
+  class: 'Ranger',
+  level: 28,
+  imagePath: 'characters/kathi.png',
 }
 
 const tobias: Companion = {
