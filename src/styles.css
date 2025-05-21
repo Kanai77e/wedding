@@ -20,3 +20,15 @@ body, html {
   font-family: 'petitFormalScript';
   src: url('../public/fonts/PetitFormalScript-Regular.ttf');
 }
+
+@property --text-primary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: white;
+}
+
+@property --text-secondary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #84ca85;
+}

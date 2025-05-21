@@ -1,9 +1,3 @@
-@property --text-secondary {
-  syntax: "<color>";
-  inherits: true;
-  initial-value: #84ca85;
-}
-
 .image-background {
   display: flex;
   flex-direction: column;
@@ -12,18 +6,13 @@
   min-height: 500px;
 }
 
-.non-transparent {
-  height: 15%;
-  background-color: aqua;
-}
-
 .transparent {
   height: 100%;
   background-color: transparent;
 }
 
 .font-italianno {
-  color: white;
+  color: var(--text-primary);
   font-family: 'italianno', cursive;
 }
 
