@@ -1,4 +1,32 @@
-import {Character} from '../character-sheet/character-sheet.component';
+export interface Character {
+  name: string;
+  race: string;
+  class: string;
+  level: number;
+  attributes: Attributes;
+  backstory: string;
+  abilities: string[];
+  equipment: string[];
+  imagePath: string;
+  companions: Companion[]
+}
+
+export interface Attributes {
+  str: number;
+  dex: number;
+  cha: number;
+  wis: number;
+  int: number;
+  con: number;
+}
+
+export interface Companion {
+  name: string;
+  race: string;
+  class: string;
+  level: number;
+  imagePath: string;
+}
 
 export const lucy: Character = {
   name: 'Lucy',
@@ -9,7 +37,8 @@ export const lucy: Character = {
   backstory: 'ÄWÄWÄ',
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['adhs toys'],
-  imagePath: 'default.jpg'
+  imagePath: 'default.jpg',
+  companions: []
 }
 
 export const julz: Character = {
@@ -21,5 +50,6 @@ export const julz: Character = {
   backstory: 'ÄWÄWÄ',
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['adhs toys'],
-  imagePath: 'default.jpg'
+  imagePath: 'default.jpg',
+  companions: []
 }
