@@ -27,5 +27,8 @@
   line-height: 3rem;
   color: var(--text-secondary);
   max-width: 1200px;
+}
 
+app-character-sheet {
+  max-width: 620px;
 }
