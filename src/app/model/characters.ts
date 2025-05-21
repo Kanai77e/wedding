@@ -40,15 +40,15 @@ const tobias: Companion = {
   name: 'Tobias',
   race: 'Human',
   class: '',
-  level: 26,
-  imagePath: 'default.jpg',
+  level: 30,
+  imagePath: 'characters/tobias.jpg',
 }
 
 const danok: Companion = {
   name: 'Danok',
   race: 'Human',
   class: '',
-  level: 26,
+  level: 29,
   imagePath: 'default.jpg',
 }
 
@@ -68,7 +68,7 @@ export const lucy: Character = {
   attributes: {str: 10, dex: 10, cha: 10, wis: 10, int: 10, con: 10},
   backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
   abilities: ['eepy +10', 'hangry +2'],
-  equipment: ['adhs toys'],
+  equipment: ['Akkordeon', 'Bücher', 'Handy', 'Snacks'],
   imagePath: 'characters/lucy.jpg',
   companions: [kathi, tobias]
 }
@@ -80,8 +80,8 @@ export const julz: Character = {
   level: 32,
   attributes: {str: 10, dex: 10, cha: 10, wis: 10, int: 10, con: 10},
   backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-  abilities: ['eepy +10', 'hangry +2'],
-  equipment: ['adhs toys'],
+  abilities: ['Mr. Krab\'s Rage +99', 'hangry +2'],
+  equipment: ['E-Gitarre', 'Horrorfilme', 'Bratpfanne', 'Cola'],
   imagePath: 'characters/julz.jpg',
   companions: [danok, alex]
 }
