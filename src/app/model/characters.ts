@@ -46,10 +46,10 @@ const tobias: Companion = {
 
 const danok: Companion = {
   name: 'Danok',
-  race: 'Human',
-  class: '',
+  race: 'Dwarf',
+  class: 'Warlock',
   level: 29,
-  imagePath: 'default.jpg',
+  imagePath: 'characters/danok.jpg',
 }
 
 const alex: Companion = {
