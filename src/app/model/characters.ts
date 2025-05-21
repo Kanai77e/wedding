@@ -57,7 +57,7 @@ const alex: Companion = {
   race: 'Human',
   class: '',
   level: 26,
-  imagePath: 'default.jpg',
+  imagePath: 'characters/alex.jpg',
 }
 
 export const lucy: Character = {
