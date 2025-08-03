@@ -69,7 +69,7 @@ export const lucy: Character = {
   backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
   abilities: ['eepy +10', 'hangry +2'],
   equipment: ['Akkordeon', 'Bücher', 'Handy', 'Snacks'],
-  imagePath: 'characters/lucy.jpg',
+  imagePath: 'characters/lucy-1.jpg',
   companions: [kathi, tobias]
 }
 
@@ -82,7 +82,7 @@ export const julz: Character = {
   backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
   abilities: ['Mr. Krab\'s Rage +99', 'hangry +2'],
   equipment: ['E-Gitarre', 'Horrorfilme', 'Bratpfanne', 'Cola'],
-  imagePath: 'characters/julz.jpg',
+  imagePath: 'characters/julz-3.jpg',
   companions: [danok, alex]
 }
 
