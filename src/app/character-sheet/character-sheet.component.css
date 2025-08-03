@@ -8,17 +8,17 @@
 }
 
 .attribute {
-  @apply text-center bg-amber-100 p-4 rounded shadow;
+  @apply text-center bg-amber-100 p-2 rounded shadow;
 }
 
 .attribute-name {
-  @apply text-lg font-bold text-green-900 hidden sm:block;
+  @apply font-bold text-green-900 hidden sm:block;
 }
 
 .attribute-name-sm {
-  @apply text-lg font-bold text-green-900 sm:hidden;
+  @apply font-bold text-green-900 sm:hidden;
 }
 
 .attribute-value {
-  @apply text-2xl font-bold;
+  @apply text-lg font-bold;
 }
