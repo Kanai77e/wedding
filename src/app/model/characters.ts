@@ -67,7 +67,7 @@ export const lucy: Character = {
   level: 27,
   attributes: {str: 10, dex: 10, cha: 10, wis: 10, int: 10, con: 10},
   backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-  abilities: ['eepy +10', 'hangry +2'],
+  abilities: ['eepy +10', 'overthinking +3,5', 'hangry +2'],
   equipment: ['Akkordeon', 'Bücher', 'Handy', 'Snacks'],
   imagePath: 'characters/lucy-1.jpg',
   companions: [kathi, tobias]
@@ -80,7 +80,7 @@ export const julz: Character = {
   level: 32,
   attributes: {str: 10, dex: 10, cha: 10, wis: 10, int: 10, con: 10},
   backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
-  abilities: ['Mr. Krab\'s Rage +99', 'hangry +2'],
+  abilities: ['Mr. Krab\'s Rage +99', 'Impostor Syndrome +4', 'hangry +2'],
   equipment: ['E-Gitarre', 'Horrorfilme', 'Bratpfanne', 'Cola'],
   imagePath: 'characters/julz-3.jpg',
   companions: [danok, alex]
