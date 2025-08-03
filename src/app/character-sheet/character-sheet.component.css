@@ -1,3 +1,24 @@
 .old-paper {
   background-image: url("../../../public/old-paper.jpg");
 }
+
+
+.attributes {
+  @apply grid grid-cols-2 lg:grid-cols-3 gap-4 mb-8;
+}
+
+.attribute {
+  @apply text-center bg-amber-100 p-4 rounded shadow;
+}
+
+.attribute-name {
+  @apply text-lg font-bold text-green-900 hidden sm:block;
+}
+
+.attribute-name-sm {
+  @apply text-lg font-bold text-green-900 sm:hidden;
+}
+
+.attribute-value {
+  @apply text-2xl font-bold;
+}

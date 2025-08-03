@@ -10,5 +10,5 @@ import {Character} from '../model/characters';
 
 export class CharacterSheetComponent {
   character = input.required<Character>()
-  showAttributes = input<boolean>(false);
+  showAttributes = input<boolean>(true);
 }
