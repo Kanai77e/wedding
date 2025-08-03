@@ -35,7 +35,7 @@ export class LandingPageComponent implements AfterViewInit {
     const isHandset = this.breakPointsObserver.isMatched('(max-width: 1200px)')
     jarallax(this.parallaxContainer()?.nativeElement, {
       speed: 0.2,
-      imgSrc: 'bg2small.jpg', // Update path to your image
+      imgSrc: 'bg2small.jpg',
       imgSize: isHandset ? 'cover' : 'contain',
       imgPosition: isHandset ? '40% 0%' : 'center 0%',
       imgRepeat: 'no-repeat'
