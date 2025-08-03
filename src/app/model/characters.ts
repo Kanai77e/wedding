@@ -39,7 +39,7 @@ const kathi: Companion = {
 const tobias: Companion = {
   name: 'Tobias',
   race: 'Human',
-  class: '',
+  class: 'Monk',
   level: 30,
   imagePath: 'characters/tobias.jpg',
 }
