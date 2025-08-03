@@ -55,8 +55,8 @@ const danok: Companion = {
 const alex: Companion = {
   name: 'Alex',
   race: 'Human',
-  class: '',
-  level: 26,
+  class: 'Barbarian',
+  level: 31,
   imagePath: 'characters/alex.jpg',
 }
 
