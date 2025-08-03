@@ -17,44 +17,46 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-    <div class="text-center bg-amber-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-green-900 hidden sm:block">Strength</h3>
-      <h3 class="text-lg font-bold text-green-900 sm:hidden">STR</h3>
-      <p class="text-2xl font-bold">{{ char.attributes.str }}</p>
+  @if (showAttributes()) {
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+      <div class="text-center bg-amber-100 p-4 rounded shadow">
+        <h3 class="text-lg font-bold text-green-900 hidden sm:block">Strength</h3>
+        <h3 class="text-lg font-bold text-green-900 sm:hidden">STR</h3>
+        <p class="text-2xl font-bold">{{ char.attributes.str }}</p>
+      </div>
+      <div class="text-center bg-amber-100 p-4 rounded shadow">
+        <h3 class="text-lg font-bold text-green-900 hidden sm:block">
+          Dexterity
+        </h3>
+        <h3 class="text-lg font-bold text-green-900 sm:hidden">DEX</h3>
+        <p class="text-2xl font-bold">{{ char.attributes.dex }}</p>
+      </div>
+      <div class="text-center bg-amber-100 p-4 rounded shadow">
+        <h3 class="text-lg font-bold text-green-900 hidden sm:block">Charisma</h3>
+        <h3 class="text-lg font-bold text-green-900 sm:hidden">CHA</h3>
+        <p class="text-2xl font-bold">{{ char.attributes.cha }}</p>
+      </div>
+      <div class="text-center bg-amber-100 p-4 rounded shadow">
+        <h3 class="text-lg font-bold text-green-900 hidden sm:block">Wisdom</h3>
+        <h3 class="text-lg font-bold text-green-900 sm:hidden">WIS</h3>
+        <p class="text-2xl font-bold">{{ char.attributes.wis }}</p>
+      </div>
+      <div class="text-center bg-amber-100 p-4 rounded shadow">
+        <h3 class="text-lg font-bold text-green-900 hidden sm:block">
+          Intelligence
+        </h3>
+        <h3 class="text-lg font-bold text-green-900 sm:hidden">INT</h3>
+        <p class="text-2xl font-bold">{{ char.attributes.int }}</p>
+      </div>
+      <div class="text-center bg-amber-100 p-4 rounded shadow">
+        <h3 class="text-lg font-bold text-green-900 hidden sm:block">
+          Constitution
+        </h3>
+        <h3 class="text-lg font-bold text-green-900 sm:hidden">CON</h3>
+        <p class="text-2xl font-bold">{{ char.attributes.con }}</p>
+      </div>
     </div>
-    <div class="text-center bg-amber-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-green-900 hidden sm:block">
-        Dexterity
-      </h3>
-      <h3 class="text-lg font-bold text-green-900 sm:hidden">DEX</h3>
-      <p class="text-2xl font-bold">{{ char.attributes.dex }}</p>
-    </div>
-    <div class="text-center bg-amber-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-green-900 hidden sm:block">Charisma</h3>
-      <h3 class="text-lg font-bold text-green-900 sm:hidden">CHA</h3>
-      <p class="text-2xl font-bold">{{ char.attributes.cha }}</p>
-    </div>
-    <div class="text-center bg-amber-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-green-900 hidden sm:block">Wisdom</h3>
-      <h3 class="text-lg font-bold text-green-900 sm:hidden">WIS</h3>
-      <p class="text-2xl font-bold">{{ char.attributes.wis }}</p>
-    </div>
-    <div class="text-center bg-amber-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-green-900 hidden sm:block">
-        Intelligence
-      </h3>
-      <h3 class="text-lg font-bold text-green-900 sm:hidden">INT</h3>
-      <p class="text-2xl font-bold">{{ char.attributes.int }}</p>
-    </div>
-    <div class="text-center bg-amber-100 p-4 rounded shadow">
-      <h3 class="text-lg font-bold text-green-900 hidden sm:block">
-        Constitution
-      </h3>
-      <h3 class="text-lg font-bold text-green-900 sm:hidden">CON</h3>
-      <p class="text-2xl font-bold">{{ char.attributes.con }}</p>
-    </div>
-  </div>
+  }
 
   <!-- Backstory -->
   <div class="mb-8">
