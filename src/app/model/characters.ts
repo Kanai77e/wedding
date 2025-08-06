@@ -66,7 +66,7 @@ export const lucy: Character = {
   class: 'Druid',
   level: 27,
   attributes: {str: 10, dex: 12, cha: 13, wis: 13, int: 13, con: 13},
-  backstory: 'Einst wuchs in einem weit entfernten Land (NRW) ein kleines Mädchen heran. Nachdem sie ihre Jugend dort verbracht hatte, zog sie mit ihrem Herzen voller Liebe für Tiere, Kinder und Musik in die weite Welt, um sich weiterzubilden. Als die Welt durch eine seltsame Krankheit stillstand, traf sie auf ihren Reisen auf einen mutigen Paladin, der sich ihr als Reisebegleiter für ihre Abenteuer anbot. Schnell verliebte sie sich in ihn und so kam es, dass sie von da an die Abenteuer des Lebens zusammen durschritten.',
+  backstory: 'Einst wuchs in einem weit entfernten Land (NRW) ein kleines Mädchen heran. Nachdem sie ihre Jugend dort verbracht hatte, zog sie mit ihrem Herzen voller Liebe für Tiere, Kinder und Musik in die weite Welt, um sich weiterzubilden. Als die Welt durch eine seltsame Krankheit stillstand, traf sie auf ihren Reisen auf einen mutigen Paladin, der sich ihr als Reisebegleiter für ihre Abenteuer anbot. Schnell verliebte sie sich in ihn und so kam es, dass sie von da an die Abenteuer des Lebens zusammen durchschritten.',
   abilities: ['eepy +10', 'overthinking +3,5', 'hangry +2'],
   equipment: ['Akkordeon', 'Bücher', 'Handy', 'Snacks'],
   imagePath: 'characters/lucy-1.jpg',
