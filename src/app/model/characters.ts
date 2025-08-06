@@ -79,7 +79,7 @@ export const julz: Character = {
   class: 'Paladin',
   level: 32,
   attributes: {str: 12, dex: 11, cha: 15, wis: 12, int: 13, con: 12},
-  backstory: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+  backstory: 'In einem beschaulichen Königreich namens Feldkahl, wurde ein Junge geboren, der sich nie ganz sicher war, wohin sein Weg ihn führen würde. Mal schlug er diesen Pfad ein, mal jenen – stets neugierig, stets bereit, neue Questen zu wagen, ohne das Ziel im Detail zu kennen. Jahre vergingen, und viele Rollen nahm er an – mal als Schüler, mal als Lehrling, mal als Geselle, mal als Student, mal als Tagträumer. Doch erst, als die Welt für eine Weile stillzustehen schien, trat Lucy in sein Leben und zog ihn sofort in ihren Bann. Was als zufällige Begegnung auf der großen Weltkarte begann, wurde für die beiden zum größten aller Abenteuer: der Liebe.',
   abilities: ['Mr. Krab\'s Rage +99', 'Impostor Syndrome +4', 'hangry +2'],
   equipment: ['E-Gitarre', 'Horrorfilme', 'Bratpfanne', 'Cola'],
   imagePath: 'characters/julz-3.jpg',
