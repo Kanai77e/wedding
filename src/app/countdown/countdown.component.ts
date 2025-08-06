@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
   styleUrl: './countdown.component.css'
 })
 export class CountdownComponent {
-  weddingDate: Date = new Date('2025-10-11T15:00:00'); // Replace with your wedding date
+  weddingDate: Date = new Date('2025-10-11T15:00:00');
   timeLeft: any = {};
   private timer: any;
 
@@ -27,7 +27,7 @@ export class CountdownComponent {
     const distance = this.weddingDate.getTime() - now;
 
     if (distance < 0) {
-      this.timeLeft = null; // Timer ends when the date is in the past
+      this.timeLeft = null;
       clearInterval(this.timer);
       return;
     }
